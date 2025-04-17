@@ -1,0 +1,31 @@
+<script type = "text/javascript">
+    function msg(){
+        alert("hello alert box");
+    }
+</script>
+<input type = "button" value = "click" onclick="msg()"/>
+
+<script type = "text/javascript">
+    function msg(){
+        var v = confirm("are u sure?");
+        if (v==true){
+            alert("ok");
+        }
+        else{
+            alert("cancel");
+        }
+    }
+</script>
+<input type = "button" value = "deleterecord" onclick="msg()"/>
+
+
+<head><h5>dom methods</h5></head>
+<body>
+    <div class = "class">
+        this is a siple js 
+    </div>
+    <script type = "text.javascript">
+        var x = document.getElementByIdclassname("class");
+        document.write("on calling x,it will retunr an arry-likeobject :<br>" +x);
+    </script>
+</body>
